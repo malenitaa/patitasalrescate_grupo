@@ -82,7 +82,10 @@ main
     gap: 20px;
     align-items: center;}
 .box-joaquin img
-    {border-radius: 141.5px;}
+    {width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;}
 
 .box-candela
     {grid-row: 1;
@@ -92,7 +95,10 @@ main
     gap: 20px;
     align-items: center;}
 .box-candela img
-    {border-radius: 141.5px;}
+    {width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;}
 
 .box-augusto
     {grid-row: 2;
@@ -102,7 +108,10 @@ main
     gap: 20px;
     align-items: center;}
 .box-augusto img
-    {border-radius: 141.5px;}
+    {width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;}
 
 .box-malena
     {grid-row: 2;
@@ -112,7 +121,10 @@ main
     gap: 20px;
     align-items: center;}
 .box-malena img
-    {border-radius: 141.5px;}
+    {width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;}
 
 .button a
     {background-color: #F2C9DC;
