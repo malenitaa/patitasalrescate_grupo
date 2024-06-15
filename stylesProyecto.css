@@ -376,15 +376,15 @@ footer div {
 }
 
 #img1 {
-    background-image: url(../img/1.png);
+    background-image: url(public/img/1.png);
 }
 
 #img2 {
-    background-image: url(../img/2.png);
+    background-image: url(public/img/2.png);
 }
 
 #img3 {
-    background-image: url(../img/3.png);
+    background-image: url(public/img/3.png);
 }
 
 .arbol{
