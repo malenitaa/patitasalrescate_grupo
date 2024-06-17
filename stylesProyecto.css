@@ -70,7 +70,7 @@ label {
 
 .seccion-propuesta {
     background-color: #F3F3F3;
-    height: 520px;
+   
     width: 800px;
     margin: 35px 0px;
     border-radius: 20px;
@@ -99,7 +99,6 @@ label {
 
 .seccion-avances {
     background-color: #F3F3F3;
-    height: 300px;
     width: 800px;
     margin: 35px 0px;
     border-radius: 20px;
@@ -123,7 +122,6 @@ label {
 
 .seccion-avances2 {
     background-color: #F3F3F3;
-    height: 3150px;
     width: 800px;
     margin: 35px 0px;
     border-radius: 20px;
@@ -226,7 +224,6 @@ footer div {
 
 .seccion-2 {
     background-color: #F3F3F3;
-    height: 100px;
     width: 800px;
     margin: 35px 0px;
     border-radius: 20px;
@@ -311,7 +308,6 @@ footer div {
 
 .seccion-inicio2 {
     background-color: #F3F3F3;
-    height: 450px;
     width: 800px;
     margin: 35px 0px;
     border-radius: 20px;
