@@ -1,7 +1,10 @@
-*
-    {margin: 0;
+/*  GENERAL */
+* {
+    margin: 0;
     padding: 0;
-    font-family: "Inter", sans-serif;}
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
 
 body {
     display: flex;
@@ -24,14 +27,12 @@ main {
     height: auto;
     min-height: 90px;
     z-index: 1;
-}
-
-.nav-inicio {
     display: flex;
     flex-direction: row;
     padding: 10px 0px;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .nav-inicio ul {
@@ -87,18 +88,83 @@ main {
     background-color: #1d60c4;
 }
 
-
-footer
-    {background-color: #CBC5D9;
+footer {
+    background-color: #CBC5D9;
     height: 80px;
     width: 100%;
     color: white;
     font-weight: 200;
     display: flex;
     align-items: center;
-    font-size: 15px;}
+    font-size: 15px;
+}
 
-footer div
-    {display: flex;
+footer div {
+    display: flex;
     justify-content: space-evenly;
-    width: 100%;}
+    width: 100%;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    .nav-inicio {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav-inicio ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-inicio ul li a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .explicacion {
+        width: 90%;
+        padding: 20px 20px;
+    }
+
+    .button a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    footer {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    footer div {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .nav-inicio ul li a {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .explicacion {
+        padding: 20px 10px;
+    }
+
+    .button a {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+    footer {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    footer div {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
