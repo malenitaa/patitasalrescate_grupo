@@ -54,7 +54,7 @@ main {
 }
 
 .nav-inicio ul li a:hover {
-    background-color: #a44040;
+    background-color: #f7f7f7;
     transition: 150ms;
 }
 
