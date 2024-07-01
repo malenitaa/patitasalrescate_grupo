@@ -46,7 +46,7 @@ main {
 
 .nav-inicio ul li a {
     text-decoration: none;
-    color: #f086b8;
+    color: #a44040;
     font-weight: 500;
     font-size: 15px;
     padding: 12px 20px;
@@ -66,7 +66,7 @@ main {
 
 .titulo h1 {
     font-size: 40px;
-    color: #f086b8;
+    color: #a44040;
     font-weight: 600;
 }
 
@@ -81,7 +81,7 @@ main {
 
 .seccion-avances h1, .seccion-avances2 h1 {
     text-align: center;
-    color: #f086b8;
+    color: #a44040;
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -95,7 +95,7 @@ main {
 
 .seccion-avances img, .seccion-avances2 img {
     border-radius: 20px;
-    border: #f086b8 3px solid;
+    border: #a44040 3px solid;
 }
 
 .seccion-avances2 p {
@@ -142,7 +142,7 @@ main {
 }
 
 #color1 {
-    background-color: #f086b8;
+    background-color: #a44040;
 }
 
 #color2 {
