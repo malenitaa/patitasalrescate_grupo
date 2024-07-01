@@ -46,7 +46,7 @@ main {
 
 .nav-inicio ul li a {
     text-decoration: none;
-    color: #F2C9DC;
+    color: #f086b8;
     font-weight: 500;
     font-size: 15px;
     padding: 12px 20px;
@@ -54,7 +54,7 @@ main {
 }
 
 .nav-inicio ul li a:hover {
-    background-color: #f7f7f7;
+    background-color: #a44040;
     transition: 150ms;
 }
 
@@ -66,7 +66,7 @@ main {
 
 .titulo h1 {
     font-size: 40px;
-    color: #F2C9DC;
+    color: #f086b8;
     font-weight: 600;
 }
 
@@ -81,7 +81,7 @@ main {
 
 .seccion-avances h1, .seccion-avances2 h1 {
     text-align: center;
-    color: #F2C9DC;
+    color: #f086b8;
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -95,7 +95,7 @@ main {
 
 .seccion-avances img, .seccion-avances2 img {
     border-radius: 20px;
-    border: #F2C9DC 3px solid;
+    border: #f086b8 3px solid;
 }
 
 .seccion-avances2 p {
@@ -142,7 +142,7 @@ main {
 }
 
 #color1 {
-    background-color: #F2C9DC;
+    background-color: #f086b8;
 }
 
 #color2 {
